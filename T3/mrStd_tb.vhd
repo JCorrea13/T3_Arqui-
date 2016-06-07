@@ -16,7 +16,7 @@ use IEEE.Std_Logic_1164.all;
 
 package aux_functions is  
 
-	subtype blocoCacheL2 is std_logic_vector (48 downto 0);
+	subtype blocoCacheL2 is std_logic_vector (80 downto 0);
    subtype reg32  		is std_logic_vector(31 downto 0);
    subtype reg16  		is std_logic_vector(15 downto 0);
    subtype reg8   		is std_logic_vector( 7 downto 0);
@@ -24,7 +24,7 @@ package aux_functions is
 
    -- definio do tipo 'memory', que ser utilizado para as memrias de dados/instrues
    constant MEMORY_SIZE : integer := 2048;     
-   type memory is array (0 to MEMORY_SIZE) of reg8; --Tipo Memoria Principal
+   type memory is array (0 to MEMORY_SIZE) of reg8; --Tipo Memoria Principal--Palabra de 8 bits
 
    constant TAM_LINHA : integer := 200;
    
@@ -143,8 +143,8 @@ architecture CACHE_L2 of CACHE_L2 is
 	
 begin     
    tmp_address <= Caddress - START_ADDRESS;   --  offset do endereamento  -- 
-   row <= tmp_address(15 downto 3);
-	tag <= tmp_address(2 downto 0);
+   row <= "000" & Caddress(80 downto 77);
+	tag <= "0" & tmp_address(76 downto 74);
 	
 	Instr_mem: entity work.RAM_mem 
 		generic map( START_ADDRESS => x"00400020" )
@@ -152,7 +152,7 @@ begin
 	
    -- writes in memory ASYNCHRONOUSLY  -- LITTLE ENDIAN -------------------
    process(Cce_n, Cwe_n, low_address, Cdata)
-	variable cont: integer; --Este contador sirve como indice de la cache
+	  variable cont: integer; --Este contador sirve como indice de la cache
      begin
        if Cce_n='0' and Cwe_n='0' then
           if CONV_INTEGER(low_address)>=0 and CONV_INTEGER(low_address+3)<=MEMORY_SIZE then
@@ -166,23 +166,92 @@ begin
          end if;   
     end process;   
     
-   -- read from cache-a
+   -- read from cache-a L2
    process(Cce_n, Coe_n, low_address)
+	  variable reg_tmp: blocoCacheL2;
      begin
-       if Cce_n='0' and Coe_n='0' and
-          CONV_INTEGER(low_address)>=0 and CONV_INTEGER(low_address+3)<=MEMORY_SIZE then
-            Cdata(31 downto 24) <= CACHE_DATA(CONV_INTEGER(low_address+3));
-            Cdata(23 downto 16) <= CACHE_DATA(CONV_INTEGER(low_address+2));
-            Cdata(15 downto  8) <= CACHE_DATA(CONV_INTEGER(low_address+1));
-            Cdata( 7 downto  0) <= CACHE_DATA(CONV_INTEGER(low_address  ));
+       if Cce_n='0' and Coe_n='0' then
+			--and CONV_INTEGER(low_address)>=0 and CONV_INTEGER(low_address+3)<=MEMORY_SIZE then
+			 --Verificamos si la direccion deseada esta en la cache
+			 reg_tmp := CACHE_DATA(0);
+			 if reg_tmp(80 downto 77) = row then
+			
+				Cdata(31 downto 24) <= reg_tmp(31 downto 24);
+            Cdata(23 downto 16) <= reg_tmp(23 downto 16);
+            Cdata(15 downto  8) <= reg_tmp(15 downto  8);
+            Cdata( 7 downto  0) <= reg_tmp( 7 downto  0);
+			 end if;
 			 
+			 reg_tmp := CACHE_DATA(1);
+			 if reg_tmp(80 downto 77) = row then
+			
+				Cdata(31 downto 24) <= reg_tmp(31 downto 24);
+            Cdata(23 downto 16) <= reg_tmp(23 downto 16);
+            Cdata(15 downto  8) <= reg_tmp(15 downto  8);
+            Cdata( 7 downto  0) <= reg_tmp( 7 downto  0);
+			 end if;
+			 
+			 reg_tmp := CACHE_DATA(2);
+			 if reg_tmp(80 downto 77) = row then
+			
+				Cdata(31 downto 24) <= reg_tmp(31 downto 24);
+            Cdata(23 downto 16) <= reg_tmp(23 downto 16);
+            Cdata(15 downto  8) <= reg_tmp(15 downto  8);
+            Cdata( 7 downto  0) <= reg_tmp( 7 downto  0);
+			 end if;
+			 
+			 reg_tmp := CACHE_DATA(3);
+			 if reg_tmp(80 downto 77) = row then
+			
+				Cdata(31 downto 24) <= reg_tmp(31 downto 24);
+            Cdata(23 downto 16) <= reg_tmp(23 downto 16);
+            Cdata(15 downto  8) <= reg_tmp(15 downto  8);
+            Cdata( 7 downto  0) <= reg_tmp( 7 downto  0);
+			 end if;
+			 
+			 reg_tmp := CACHE_DATA(4);
+			 if reg_tmp(80 downto 77) = row then
+			
+				Cdata(31 downto 24) <= reg_tmp(31 downto 24);
+            Cdata(23 downto 16) <= reg_tmp(23 downto 16);
+            Cdata(15 downto  8) <= reg_tmp(15 downto  8);
+            Cdata( 7 downto  0) <= reg_tmp( 7 downto  0);
+			 end if;
+			 
+			 reg_tmp := CACHE_DATA(5);
+			 if reg_tmp(80 downto 77) = row then
+			
+				Cdata(31 downto 24) <= reg_tmp(31 downto 24);
+            Cdata(23 downto 16) <= reg_tmp(23 downto 16);
+            Cdata(15 downto  8) <= reg_tmp(15 downto  8);
+            Cdata( 7 downto  0) <= reg_tmp( 7 downto  0);
+			 end if;
+			 
+			 reg_tmp := CACHE_DATA(6);
+			 if reg_tmp(80 downto 77) = row then
+			
+				Cdata(31 downto 24) <= reg_tmp(31 downto 24);
+            Cdata(23 downto 16) <= reg_tmp(23 downto 16);
+            Cdata(15 downto  8) <= reg_tmp(15 downto  8);
+            Cdata( 7 downto  0) <= reg_tmp( 7 downto  0);
+			 end if;
+			
+			 reg_tmp := CACHE_DATA(7);
+			 if reg_tmp(80 downto 77) = row then
+			
+				Cdata(31 downto 24) <= reg_tmp(31 downto 24);
+            Cdata(23 downto 16) <= reg_tmp(23 downto 16);
+            Cdata(15 downto  8) <= reg_tmp(15 downto  8);
+            Cdata( 7 downto  0) <= reg_tmp( 7 downto  0);
+			 end if;
+
         else
             ---- aqui es donde se tiene que buscar en el nivel debajo
 				---- y escribir todo el bloque leido en el espacio correspondiente
 				---- de la cache--AQUI SI DEBE ASIGNAR EL BLOQUE ANTERIOR AL ACUTAL
-				case row is
-						when "000" =>
-				end case;
+--				case row is
+--						when "000" =>
+--				end case;
         end if;
    end process;   
 

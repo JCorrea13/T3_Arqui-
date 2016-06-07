@@ -1,0 +1,10 @@
+Running: /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3/CPU_tb_isim_beh.exe -prj /home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3/CPU_tb_beh.prj work.CPU_tb 
+ISim O.61xd (signature 0xb4d1ced7)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3/mrStd.vhd" into library work
+Parsing VHDL file "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3/mrStd_tb.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1318 - "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3/mrStd_tb.vhd" Line 146: Left bound value <80> of slice is out of range [31:0] of array <caddress>
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit cpu_tb in library work failed
