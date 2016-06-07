@@ -25,18 +25,55 @@ Finished circuit initialization process.
 at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 at 0 ps: Error: ******************* INVALID INSTRUCTION *************
 at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# run 3000ns
+# run 3000ns
+# run 10ns
 # restart
 # run 3000ns
 Simulator is doing circuit initialization process.
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
-# run all
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
 # run all
 at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
 # run all
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+# step
+Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 224
 # run all
 at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 at 0 ps: Error: ******************* INVALID INSTRUCTION *************
@@ -51,7 +88,7 @@ Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
 # step
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
-# step
+# run all
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
 # step
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
@@ -61,39 +98,988 @@ Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
 # step
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 160
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 170
 # run all
 at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
 # step
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
 # run all
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
 # step
 Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
-# step
-Stopped at time : 0 fs : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd.vhd" Line 240
 # run all
 Stopped at time : 200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 1800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 1800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 2 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 2 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 2200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 2200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 2400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 2400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 2600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 2600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 2800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 2800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 3 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 3 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 3200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 3200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 3200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 3400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 3400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 3400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 3400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 3600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 3600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 3600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 3600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 3800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 3800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 3800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 3800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 3800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 3800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 3800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# run all
+Stopped at time : 4 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 4 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 4 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# run all
+Stopped at time : 4 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 4 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 4 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# run all
+Stopped at time : 4200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 4200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 4200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 4200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# run all
+Stopped at time : 4200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 4200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 4200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# run all
+Stopped at time : 4400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 4400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 4400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 4400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# run all
+Stopped at time : 4600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 4600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 4600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 4600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# run all
+Stopped at time : 4800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 4800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 4800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 4800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 5 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 5 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 5200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 5200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 5400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 5400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 5400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 5400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# run all
+Stopped at time : 5400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 5400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 5400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# run all
+Stopped at time : 5600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 5600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 5600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# run all
+Stopped at time : 5600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 5600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 5800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 5800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 5800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 5800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 6 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 6 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 6200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 6200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 6400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 6400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 6400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 6400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 6400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# run all
+Stopped at time : 6600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 6600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# run all
+Stopped at time : 6600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 6800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 6800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 6800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 7800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 7800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 8 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 8 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 8 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 8 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 8200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 8200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 8200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# run all
+Stopped at time : 8200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 8200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 8400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 8400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 8400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 8400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 8600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 8600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 8600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 8600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 8800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 8800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 8800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 9 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 9 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 9 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 9 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 9200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 9200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 9400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 9400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# run all
+Stopped at time : 10 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10300 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10300 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10400 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10500 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10500 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# run all
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+# run all
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# run all
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 10600 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 253
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 254
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 257
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 156
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 158
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 91
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 92
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 93
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 94
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 95
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 97
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 10700 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 259
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 260
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 261
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 263
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 267
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 270
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 237
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 267
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 270
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 237
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 238
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 239
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 246
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 249
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 251
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 160
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 170
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 156
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 158
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 161
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 171
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 163
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 10800 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 253
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 254
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 257
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 156
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 158
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 91
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 92
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 93
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 94
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 95
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 97
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 10900 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 259
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 260
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 261
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 263
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 267
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 270
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 237
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 267
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 270
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 237
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 238
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 239
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 246
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 249
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 251
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 160
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 170
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 156
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 158
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 161
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 171
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 163
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 11 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 253
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 254
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 257
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 156
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 158
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 91
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 92
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 93
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 94
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 95
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 97
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 11100 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 259
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 260
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 261
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 263
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 267
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 270
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 237
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 267
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 270
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 237
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 238
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 239
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 246
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 247
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 249
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 251
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 160
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 170
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 156
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 158
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 161
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 171
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 105
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 112
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 113
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 114
+# step
+Stopped at time : 11200 ps : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 115
 # run all
 Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
+# show driver /cpu_tb/Instr_mem/tmp_address
+Driver for /cpu_tb/Instr_mem/tmp_address[0]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[10]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[11]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[12]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[13]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[14]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[15]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[16]
+	'1'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[17]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[18]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[19]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[1]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[20]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[21]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[22]
+	'1'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[23]
+	'1'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[24]
+	'1'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[25]
+	'1'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[26]
+	'1'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[27]
+	'1'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[28]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[29]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[2]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[30]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[31]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[3]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[4]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[5]
+	'1'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[6]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[7]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[8]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
+Driver for /cpu_tb/Instr_mem/tmp_address[9]
+	'0'	: /cpu_tb/Instr_mem/:85
+		  in File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 85
+
 # step
 Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
 # step
@@ -102,158 +1088,8 @@ Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui
 Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
 # step
 Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 163
+# step
+Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
 # run all
 Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 15 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 90 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 90 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 90 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 90 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 170 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 170 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 170 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 170 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 250 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 250 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 250 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 250 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 330 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 330 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 330 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 330 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 400 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 400 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 400 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 400 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 430 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 430 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 430 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 430 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 510 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 510 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 510 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 510 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 590 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 590 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 590 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 590 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 660 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 660 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 660 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 660 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 690 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 690 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 690 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 690 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 770 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 770 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 770 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 770 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 840 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 840 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 840 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 840 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# step
-Stopped at time : 840 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 163
-# run all
-Stopped at time : 870 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 870 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 870 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 870 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 950 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 950 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 950 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 950 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# run all
-Stopped at time : 1030 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 1030 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 1030 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 1030 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# step
-Stopped at time : 1030 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
-# run all
-Stopped at time : 1110 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 107
-# step
-Stopped at time : 1110 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 108
-# step
-Stopped at time : 1110 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 109
-# step
-Stopped at time : 1110 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 110
-# step
-Stopped at time : 1110 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 90
-# step
-Stopped at time : 1120 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 187
-# step
-Stopped at time : 1120 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd_tb.vhd" Line 188
-# step
-Stopped at time : 1120 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd.vhd" Line 62
-# step
-Stopped at time : 1120 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd.vhd" Line 62
-# step
-Stopped at time : 1120 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd.vhd" Line 62
-# step
-Stopped at time : 1120 ns : File "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-MP/mrStd.vhd" Line 62
 # exit 0
