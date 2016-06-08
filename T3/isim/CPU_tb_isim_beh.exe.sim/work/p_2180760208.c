@@ -91,7 +91,7 @@ LAB0:    t8 = (t7 + 0U);
     t13 = (t9 + 12U);
     *((unsigned int *)t13) = t11;
     t13 = (t5 + 4U);
-    t15 = (t1 + 3016);
+    t15 = (t1 + 3120);
     t16 = (t13 + 88U);
     *((char **)t16) = t15;
     t18 = (t13 + 56U);
@@ -149,119 +149,119 @@ LAB4:    t8 = (t13 + 56U);
     *((unsigned int *)t15) = t11;
 
 LAB1:    return t0;
-LAB5:    t39 = (t1 + 4760);
+LAB5:    t39 = (t1 + 4896);
     t41 = (t13 + 56U);
     t42 = *((char **)t41);
     t41 = (t42 + 0);
     memcpy(t41, t39, 4U);
     goto LAB4;
 
-LAB6:    t8 = (t1 + 4764);
+LAB6:    t8 = (t1 + 4900);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB7:    t8 = (t1 + 4768);
+LAB7:    t8 = (t1 + 4904);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB8:    t8 = (t1 + 4772);
+LAB8:    t8 = (t1 + 4908);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB9:    t8 = (t1 + 4776);
+LAB9:    t8 = (t1 + 4912);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB10:    t8 = (t1 + 4780);
+LAB10:    t8 = (t1 + 4916);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB11:    t8 = (t1 + 4784);
+LAB11:    t8 = (t1 + 4920);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB12:    t8 = (t1 + 4788);
+LAB12:    t8 = (t1 + 4924);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB13:    t8 = (t1 + 4792);
+LAB13:    t8 = (t1 + 4928);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB14:    t8 = (t1 + 4796);
+LAB14:    t8 = (t1 + 4932);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB15:    t8 = (t1 + 4800);
+LAB15:    t8 = (t1 + 4936);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB16:    t8 = (t1 + 4804);
+LAB16:    t8 = (t1 + 4940);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB17:    t8 = (t1 + 4808);
+LAB17:    t8 = (t1 + 4944);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB18:    t8 = (t1 + 4812);
+LAB18:    t8 = (t1 + 4948);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB19:    t8 = (t1 + 4816);
+LAB19:    t8 = (t1 + 4952);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB20:    t8 = (t1 + 4820);
+LAB20:    t8 = (t1 + 4956);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
     memcpy(t15, t8, 4U);
     goto LAB4;
 
-LAB21:    t8 = (t1 + 4824);
+LAB21:    t8 = (t1 + 4960);
     t15 = (t13 + 56U);
     t16 = *((char **)t15);
     t15 = (t16 + 0);
@@ -271,6 +271,8 @@ LAB21:    t8 = (t1 + 4824);
 LAB22:;
 }
 
+
+void ieee_p_2592010699_sub_7991387870887201249_503743352();
 
 void ieee_p_2592010699_sub_7991387870887201249_503743352();
 
@@ -292,4 +294,5 @@ extern void work_p_2180760208_init()
 	xsi_register_resolution_function(3, 2, (void *)ieee_p_2592010699_sub_7991387870887201249_503743352, 3);
 	xsi_register_resolution_function(4, 2, (void *)ieee_p_2592010699_sub_7991387870887201249_503743352, 3);
 	xsi_register_resolution_function(5, 2, (void *)ieee_p_2592010699_sub_7991387870887201249_503743352, 3);
+	xsi_register_resolution_function(6, 2, (void *)ieee_p_2592010699_sub_7991387870887201249_503743352, 3);
 }

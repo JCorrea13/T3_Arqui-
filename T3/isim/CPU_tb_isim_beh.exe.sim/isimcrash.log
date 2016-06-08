@@ -1,0 +1,14 @@
+Printing stacktrace...
+
+[0] /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimTransaction::action()+0xc1) [0x7fd80abd4231]
+[1] /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::processEvents()+0x4f) [0x7fd80ab5f14f]
+[2] /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::spsimCurrentSlot(HSimQArrayS*)+0x3e) [0x7fd80ab6322e]
+[3] /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::spsimInternal(long long)+0xb7) [0x7fd80ab63757]
+[4] /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::spsim(long long)+0x9e) [0x7fd80ab6385e]
+[5] /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/./lib/lin64/libhsimengine.so(ISimEngine::SimulationThread::runCommand()+0x9f) [0x7fd80abab7af]
+[6] /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/./lib/lin64/libhsimengine.so(ISimEngine::SimulationThread::loop()+0x91) [0x7fd80abac701]
+[7] /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimSimCtl::runTcl(HSimConfigDecl*, HSimEntyBlk*, int, char**)+0x267) [0x7fd80aba7027]
+[8] CPU_tb_isim_beh.exe(main+0x1b2) [0x401e8f]
+[9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7fd80a66dec5]
+[10] CPU_tb_isim_beh.exe() [0x401c19]
+Done
