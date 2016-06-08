@@ -8,7 +8,7 @@ Parsing VHDL file "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3/mrStd_tb
 Starting static elaboration
 Completed static elaboration
 Fuse Memory Usage: 74100 KB
-Fuse CPU Usage: 140 ms
+Fuse CPU Usage: 150 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
@@ -30,9 +30,9 @@ Compiling architecture control_unit of entity control_unit [control_unit_default
 Compiling architecture mrstd of entity MRstd [mrstd_default]
 Compiling architecture cpu_tb of entity cpu_tb
 Time Resolution for simulation is 1ps.
-Waiting for 6 sub-compilation(s) to finish...
+Waiting for 7 sub-compilation(s) to finish...
 Compiled 31 VHDL Units
 Built simulation executable /home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3/CPU_tb_isim_beh.exe
-Fuse Memory Usage: 654872 KB
-Fuse CPU Usage: 300 ms
-GCC CPU Usage: 1460 ms
+Fuse Memory Usage: 654868 KB
+Fuse CPU Usage: 310 ms
+GCC CPU Usage: 1560 ms
