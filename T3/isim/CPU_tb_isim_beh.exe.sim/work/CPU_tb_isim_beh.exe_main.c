@@ -36,7 +36,7 @@ int main(int argc, char **argv)
     std_textio_init();
     work_p_2180760208_init();
     work_p_0599277782_init();
-    work_a_3613278437_3836892431_init();
+    work_a_1734011930_3308102844_init();
     work_a_1489912994_3836892431_init();
     work_a_0283779055_3991249235_init();
     ieee_p_0774719531_init();
