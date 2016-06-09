@@ -1,0 +1,64 @@
+ISim log file
+Running: /home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-Reloj/CPU_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-Reloj/CPU_tb_isim_beh.wdb 
+ISim O.61xd (signature 0xb4d1ced7)
+----------------------------------------------------------------------
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@kriti.inf.pucrs.br'.
+INFO:Security:53 - The LM_LICENSE_FILE environment variable is not set.
+WARNING:Security:43 - No license file was found in the standard Xilinx license directory.
+WARNING:Security:44 - No license file was found.
+       Please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/cpu/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 30 ns(1), Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 30 ns(2), Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 30 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 110 ns(1), Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 110 ns(2), Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+at 41070 ns(1), Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 41070 ns(2), Instance /cpu_tb/cpu/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# run 3000ns
+# cls
+# exit 0

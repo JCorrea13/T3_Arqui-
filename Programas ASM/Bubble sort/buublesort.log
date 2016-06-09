@@ -1,0 +1,64 @@
+ Address    Code        Basic                     Source
+
+0x00400000  0x001c8021  addu $16,$0,$28       15   	move $s0,$gp			#get the intial point to save array 
+0x00400004  0x21080001  addi $8,$8,0x00000001 16   	addi $t0,$t0,1			# $t0 = 1
+0x00400008  0x00004820  add $9,$0,$0          17   	add $t1,$zero,$zero		# 
+0x0040000c  0x00005020  add $10,$0,$0         18   	add $t2,$zero,$zero		# 
+0x00400010  0x00005820  add $11,$0,$0         19   	add $t3,$zero,$zero		# 
+0x00400014  0x00007020  add $14,$0,$0         20   	add $t6,$zero,$zero        
+0x00400018  0x00006020  add $12,$0,$0         21   	add $t4,$zero,$zero        
+0x0040001c  0x20010001  addi $1,$0,0x00000001 22   	sub $t7,$zero,1			# terminate        
+0x00400020  0x00017822  sub $15,$0,$1              
+0x00400024  0x24020004  addiu $2,$0,0x0000000423   	li $v0,4		# system call to put the string
+0x00400028  0x3c011001  lui $1,0x00001001     24   	la $a0,msg1		# 
+0x0040002c  0x34240000  ori $4,$1,0x00000000       
+0x00400030  0x0000000c  syscall               25   	syscall		#
+0x00400034  0x02008820  add $17,$16,$0        26   	add $s1,$s0,$zero	# copy the pointer to array in $s1
+0x00400038  0x24020005  addiu $2,$0,0x0000000528   	li $v0,5		# get the value in v0 
+0x0040003c  0x0000000c  syscall               29   	syscall		# 
+0x00400040  0x104f0004  beq $2,$15,0x00000004 30   	beq $v0,$t7,bubblesort # end of string run to bubblesort
+0x00400044  0xa2220000  sb $2,0x00000000($17) 31   	sb $v0,0($s1)	# put the value at the position pointed by $s1
+0x00400048  0x22310001  addi $17,$17,0x000000032   	addi $s1,$s1,1		# move the $s1 pointer by one
+0x0040004c  0x02206820  add $13,$17,$0        33   	add $t5,$s1,$zero # $t5 stores the end value
+0x00400050  0x0810000e  j 0x00400038          34   	j entervalues
+0x00400054  0x02006020  add $12,$16,$0        36   	add $t4,$s0,$zero
+0x00400058  0x21ce0001  addi $14,$14,0x000000037   	addi $t6,$t6,1
+0x0040005c  0x02288822  sub $17,$17,$8        39   	sub $s1,$s1,$t0
+0x00400060  0x1230001f  beq $17,$16,0x0000001f40   	beq $s1,$s0,ending  	# we have sorted everything
+0x00400064  0x02009020  add $18,$16,$0        42   	add $s2,$s0,$zero
+0x00400068  0x82490000  lb $9,0x00000000($18) 44   	lb $t1,0($s2)		# first element
+0x0040006c  0x824a0001  lb $10,0x00000001($18)45   	lb $t2,1($s2)		# second element
+0x00400070  0x0149582a  slt $11,$10,$9        46   	slt $t3,$t2,$t1		# 
+0x00400074  0x11600002  beq $11,$0,0x00000002 47   	beq $t3,$zero,proximo	# 
+0x00400078  0xa24a0000  sb $10,0x00000000($18)48   	sb $t2,0($s2)		# 
+0x0040007c  0xa2490001  sb $9,0x00000001($18) 49   	sb $t1,1($s2)		#		
+0x00400080  0x22520001  addi $18,$18,0x000000051   	addi $s2,$s2,1		#
+0x00400084  0x1651fff8  bne $18,$17,0xfffffff852   	bne $s2,$s1,loopinterno #
+0x00400088  0x24020004  addiu $2,$0,0x0000000453   	li $v0,4		# system call to put the string
+0x0040008c  0x3c011001  lui $1,0x00001001     54   	la $a0,msg5		# 
+0x00400090  0x34240067  ori $4,$1,0x00000067       
+0x00400094  0x0000000c  syscall               55   	syscall		#
+0x00400098  0x24020004  addiu $2,$0,0x0000000456   	li $v0,4		# system call to put the string
+0x0040009c  0x3c011001  lui $1,0x00001001     57   	la $a0,msg4		# 
+0x004000a0  0x34240050  ori $4,$1,0x00000050       
+0x004000a4  0x0000000c  syscall               58   	syscall		#
+0x004000a8  0x24020004  addiu $2,$0,0x0000000459   	li $v0,4		# system call to put the string
+0x004000ac  0x3c011001  lui $1,0x00001001     60   	la $a0,msg5		# 
+0x004000b0  0x34240067  ori $4,$1,0x00000067       
+0x004000b4  0x0000000c  syscall               61   	syscall		#
+0x004000b8  0x24020001  addiu $2,$0,0x0000000163   	li $v0,1
+0x004000bc  0x81840000  lb $4,0x00000000($12) 64   	lb $a0,0($t4)
+0x004000c0  0x0000000c  syscall               65   	syscall
+0x004000c4  0x24020004  addiu $2,$0,0x0000000466   	li $v0,4
+0x004000c8  0x3c011001  lui $1,0x00001001     67   	la $a0,msg2
+0x004000cc  0x34240042  ori $4,$1,0x00000042       
+0x004000d0  0x0000000c  syscall               68   	syscall		
+0x004000d4  0x218c0001  addi $12,$12,0x000000069   	addi $t4,$t4,1
+0x004000d8  0x158dfff7  bne $12,$13,0xfffffff770   	bne $t4,$t5,imprime
+0x004000dc  0x0c100015  jal 0x00400054        71   jal bubblesort	
+0x004000e0  0x24020004  addiu $2,$0,0x0000000473   	li $v0,4		# system call to put the string
+0x004000e4  0x3c011001  lui $1,0x00001001     74   	la $a0,msg6		# 
+0x004000e8  0x34240069  ori $4,$1,0x00000069       
+0x004000ec  0x0000000c  syscall               75   	syscall		#
+0x004000f0  0x24020005  addiu $2,$0,0x0000000576   	li $v0,5
+0x004000f4  0x0000000c  syscall               77   	syscall

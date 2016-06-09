@@ -1,0 +1,38 @@
+Running: /soft64/xilinx/ferramentas/ISE/13.2/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-Reloj/CPU_tb_isim_beh.exe -prj /home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-Reloj/CPU_tb_beh.prj work.CPU_tb 
+ISim O.61xd (signature 0xb4d1ced7)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-Reloj/mrStd.vhd" into library work
+Parsing VHDL file "/home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-Reloj/mrStd_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 74108 KB
+Fuse CPU Usage: 130 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package aux_functions
+Compiling package p_mrstd
+Compiling architecture ram_mem of entity RAM_mem [\RAM_mem(('0','0','0','1','0','0...]
+Compiling architecture ram_mem of entity RAM_mem [\RAM_mem(('0','0','0','0','0','0...]
+Compiling architecture cache_l2 of entity CACHE_L2 [\CACHE_L2(('0','0','0','0','0','...]
+Compiling package std_logic_signed
+Compiling architecture regn of entity regnbit [regnbit_default]
+Compiling architecture regn of entity regnbit [\regnbit(('0','0','0','1','0','0...]
+Compiling architecture reg_bank of entity reg_bank [reg_bank_default]
+Compiling architecture alu of entity alu [alu_default]
+Compiling architecture regn of entity regnbit [\regnbit(('0','0','0','0','0','0...]
+Compiling architecture datapath of entity datapath [datapath_default]
+Compiling architecture control_unit of entity control_unit [control_unit_default]
+Compiling architecture mrstd of entity MRstd [mrstd_default]
+Compiling architecture cpu_tb of entity cpu_tb
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable /home/PORTOALEGRE/16171024/Documents/T3/T3_Arqui-/T3-Reloj/CPU_tb_isim_beh.exe
+Fuse Memory Usage: 654864 KB
+Fuse CPU Usage: 300 ms
+GCC CPU Usage: 1460 ms
